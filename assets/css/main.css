@@ -146,7 +146,8 @@ input, select, textarea {
 
 		h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {
 			font-style: normal;
-			font-weight: 300;
+			font-weight: 1000;
+			font-size: 2em;
 		}
 
 	h2 {
@@ -2530,13 +2531,13 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		text-align: center;
+		/* text-align: center;
 		padding: 3em 0 0 0;
 		background-color: #fff;
 		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
 		background-position: top left,					top left,					top left;
 		background-size: 100% 6em,					100% 6em,					auto;
-		background-repeat: no-repeat,					no-repeat,					repeat;
+		background-repeat: no-repeat,					no-repeat,					repeat; */
 	}
 
 		#header h1 {
@@ -2674,10 +2675,10 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/LogoForGym.png");
 		background-position: center center;
-		background-size: cover;
-		height: 28em;
+		/* background-size: cover; */
+		height: 14em;
 		text-align: center;
 		position: relative;
 	}
